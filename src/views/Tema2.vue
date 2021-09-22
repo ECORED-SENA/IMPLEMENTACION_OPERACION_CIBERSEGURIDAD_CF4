@@ -93,7 +93,7 @@
     figure.mt-2
       img(src="@/assets/template/tema-2-6.png")
     .titulo-segundo.mt-5
-      #t_2_1.h4 2.1 Entradas y salidas 
+      #t_2_1.h2 2.1 Entradas y salidas 
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.w-45(
         :style="{'background-image': `url(${require('@/assets/template/tema-2-7.png')})`}"
@@ -110,7 +110,7 @@
         .row.bg-morado-claro.rounded-20.h-100.py-5
           p.px-5.py-5 Ambos elementos, entradas y salidas, son parte de la configuración de los pasos que se siguen para el diseño de los controles de seguridad.
     .titulo-segundo.mt-5
-      #t_2_2.h4 2.2  Actividades
+      #t_2_2.h2 2.2  Actividades
     p.mt-5 Los pasos que se siguen para el diseño de los controles de seguridad, además de estar estructurados y orientados por las entradas y las salidas, requieren el cumplimiento de algunas acciones o actividades, según el paso, que darán sentido, cumplimiento y efectividad a cada paso y, en consecuencia, a los controles.
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.w-45(
@@ -119,7 +119,7 @@
       .bloque-texto-g__texto.w-72.p-4
         p.mb-0 El desarrollo de esas actividades deberá contemplar tiempos, responsables, herramientas, entradas y salidas de cada paso, propósitos de cada paso e intención de cada control.
     .titulo-segundo.mt-5
-      #t_2_3.h4 2.3. Paso uno: identificación del estado actual
+      #t_2_3.h2 2.3. Paso uno: identificación del estado actual
     .row.mt-5
       .col-12.col-lg-5.align-self-center
        p.mt-3.cuadro-morado.py-4 Este procedimiento es el primero de los pasos para el diseño de los controles de seguridad y está basado en la clasificación de los activos de información. Con este, se identifica el estado actual de capacidad o madurez que tiene el proceso de seguridad de la información en la organización.
@@ -171,7 +171,7 @@
                 i.fas.fa-check
                 | Clasificar los activos informáticos teniendo como base el nivel de criticidad y, por supuesto, el nivel de sensibilidad.
     .titulo-segundo.mt-5
-      #t_2_4.h4 2.4 Paso dos: definición de los objetivos
+      #t_2_4.h2 2.4 Paso dos: definición de los objetivos
     .row.mt-5
       .col-12.col-lg-5.align-self-center
        p.mt-3.cuadro-morado.py-4 Se trata del segundo de los pasos para cumplir con el diseño de los controles de seguridad dentro de la organización y, con él, se han de tener en cuenta los objetivos establecidos para trazar e implementar la estrategia de seguridad de la información, con el debido cumplimiento de los criterios establecidos por la normativa. No olvide que la norma vigente y sobre la cual estamos haciendo énfasis en este componente formativo es la ISO/IEC 27001-2013.
@@ -227,7 +227,7 @@
                 | Determinar los objetivos de medición del desempeño: la finalidad de cumplir estos objetivos debe posibilitar monitorear y reportar todos los procesos de la seguridad digital.
     
     .titulo-segundo.mt-5
-      #t_2_5.h4 2.5  Paso tres: determinación del estado deseado
+      #t_2_5.h2 2.5  Paso tres: determinación del estado deseado
     .row.mt-5
       .col-12.col-lg-5.align-self-center
        p.mt-3.cuadro-morado.py-4 Determinar el estado de seguridad que se desea alcanzar es el tercer paso que se sigue en el diseño de controles de seguridad. En este paso, hay que tener en cuenta el nivel del estado que se desea alcanzar con la aplicación y desarrollo de la estrategia de seguridad digital de la organización. Desde luego, este paso debe contemplar también el estado actual y partir de él.
@@ -309,7 +309,7 @@
           .anexo__texto
             p https://www.globalsuitesolutions.com/es/que-es-modelo-coso/
     .titulo-segundo.mt-5
-      #t_2_6.h4 2.6. Paso cuatro: determinación del nivel de riesgo aceptable
+      #t_2_6.h2 2.6. Paso cuatro: determinación del nivel de riesgo aceptable
     .row.mt-5
       .col-12.col-lg-5.align-self-center
        p.mt-3.cuadro-morado.py-4 Se trata del cuarto paso en el diseño de controles de seguridad y consiste en definir el nivel de riesgo máximo que la organización considera aceptable en lo referente a la seguridad digital. Este nivel de riesgo aceptable se tendrá en cuenta en la estrategia, con base en la necesidad de riesgo de la organización.  
@@ -383,7 +383,7 @@
                 i.fas.fa-check
                 | Dirigir la estrategia de gestión de los riesgos críticos que hayan sido hallados.
     .titulo-segundo.mt-5
-      #t_2_7.h4 2.7. Paso cinco: definición y ejecución del plan de acción
+      #t_2_7.h2 2.7. Paso cinco: definición y ejecución del plan de acción
     .row.mt-5
       .col-12.col-lg-5.align-self-center
        p.mt-3.cuadro-morado.py-4 Como quinto paso en el diseño de controles de seguridad, se encuentra la definición y ejecución del plan de acción. Se trata de fijar la hoja de ruta para lograr el estado deseado de la estrategia, teniendo en cuenta personas, tecnologías y procesos, entre otros recursos.

@@ -4,7 +4,7 @@ export default {
       'Diseño y documentación de controles de ciberseguridad',
     descripcionCurso:
       'Mediante el estudio consciente de este componente, el aprendiz estará en capacidad suficiente para preparar las distintas estrategias de ciberseguridad y seguridad de la información, a la vez que podrá elaborar eficazmente la hoja de ruta, de acuerdo con los controles requeridos y los tipos de documentación.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
