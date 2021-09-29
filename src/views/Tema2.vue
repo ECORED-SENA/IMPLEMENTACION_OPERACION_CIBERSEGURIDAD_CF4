@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1 Baggage compensation // Compensaciones de equipaje    
+      h1  Pasos para el diseño de controles de seguridad
     p.mt-5 Para el estudio y profundización de los contenidos de este componente formativo, es importante una previa comprensión y adopción de la guía técnica denominada G.ES.05 (sobre el diseño y las formas de ejecución e implementación de un plan de seguridad de la información), propuesta por MinTIC, con el fin de establecer dicho plan o estrategia.
     .h4.mt-5 A continuación, se muestran los pasos y requerimientos clave, indicados por la guía técnica G.ES.05. Se recomienda prestar mucha atención para comprenderlos, asimilarlos y tomar nota atenta de ellos: 
     
@@ -191,6 +191,15 @@
             .h3 Entradas
             p Algunas entradas de este paso son: el plan estratégico de la compañía, el inventario de los activos de información ya categorizados, las metas establecidas con respecto a la seguridad digital,  la determinación de negocio y/o medios tecnológicos que afectan el logro de objetivos,  el compendio de normas y estatutos o leyes, decretos, etc., que regulan la clasificación de información.
 
+            button.mt-5(style="background-color:white;color:initial !important;font-weight:bold;" @click="modal1 = true") Más entradas de este paso
+
+            ModalA(:abrir-modal.sync="modal1")
+              .row.align-items-center
+                h4 Más entradas de este paso
+                p.mt-4 Otras entradas importantes de este paso son:
+                p.mt-3 Las inspecciones o controles, entre los que es posible enunciar: de accesos, sistemas de descubrimiento o detección de intrusos, etc.
+                p.mt-3 Las contramedidas: se trata de aquellos mecanismos de control o de inspección que son implementados para dar respuestas específicas a las distintas amenazas; podrían ser de orden preventivo, de detección o de carácter correctivo.
+
       .cuadros-p.cuadros-p--morado-oscuro.d-flex
         .cuadros-p_titulo.mt-5
           figure
@@ -225,6 +234,14 @@
               li 
                 i.fas.fa-check
                 | Determinar los objetivos de medición del desempeño: la finalidad de cumplir estos objetivos debe posibilitar monitorear y reportar todos los procesos de la seguridad digital.
+
+            button.mt-5(style="background-color:white;color:initial !important;font-weight:bold;" @click="modal2 = true") Otras actividades de suma importancia
+
+            ModalA(:abrir-modal.sync="modal2")
+              .row.align-items-center
+                h4(style="color:initial !important;") Otras actividades de suma importancia
+                p.mt-4(style="color:initial !important;") Determinar los objetivos de gestión de recursos: su función es permitir la utilización del conocimiento y la infraestructura de seguridad digital con eficiencia y efectividad.
+                p.mt-3(style="color:initial !important;") Determinar los objetivos de medición del desempeño: la finalidad de cumplir estos objetivos debe posibilitar monitorear y reportar todos los procesos de la seguridad digital.
     
     .titulo-segundo.mt-5
       #t_2_5.h2 2.5  Paso tres: determinación del estado deseado
@@ -285,25 +302,25 @@
                 .col.mb-3.mb-sm-0.py-3
                   h3.mb-1 Amplia tus conocimientos
                   p.text-small Para ampliar su saber sobre otros estándares que contribuyen en la determinación del estado deseado, se recomienda revisar el siguiente material: CMMI, COBIT, ITIL. ISO/IEC 20000 y COSO, el cual puede encontrar en   
-                .col-sm-auto
+                //.col-sm-auto
                   a.boton.bg-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span.texto-acento-botones Descargar
                     i.fas.fa-file-download.texto-acento-botones
     .row
       .col-7.offset-1
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.globalbit.co/2019/07/22/modelo-cmmi-calidad-y-buenas-practicas-en-el-desarrollo-de-software/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link-rojo.svg")
           .anexo__texto
             p https://www.globalbit.co/2019/07/22/modelo-cmmi-calidad-y-buenas-practicas-en-el-desarrollo-de-software/
       .col-7.offset-1.mt-3
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.emagister.com/blog/que-es-itil/ " target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link-rojo.svg")
           .anexo__texto
             p  https://www.emagister.com/blog/que-es-itil/ 
       .col-7.offset-1.mt-3
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.globalsuitesolutions.com/es/que-es-modelo-coso/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link-rojo.svg")
           .anexo__texto
@@ -365,10 +382,10 @@
         .cuadros-p_titulo.mt-5
           figure
             img(src="@/assets/template/tema-2-12.svg")
-          .h3.text-white  Algunas actividades
+          .h3.text-white  Actividades
         .cuadros-p__textos__container.row
           .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
-            .h3 Algunas actividades
+            .h3 Actividades
             ul.lista-ul
               li 
                 i.fas.fa-check
@@ -426,10 +443,10 @@
         .cuadros-p_titulo.mt-5
           figure
             img(src="@/assets/template/tema-2-12.svg")
-          .h3.text-white  Algunas actividades
+          .h3.text-white  Actividades
         .cuadros-p__textos__container.row
           .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
-            .h3 Algunas actividades
+            .h3 Actividades
             ul.lista-ul
               li.mb-1 
                 i.fas.fa-check
@@ -464,6 +481,15 @@
               li.mb-1 
                 i.fas.fa-check
                 | De capacidades
+              li.mb-1 
+                i.fas.fa-check
+                | De recursos
+              li.mb-1 
+                i.fas.fa-check
+                | Físicas
+              li.mb-1 
+                i.fas.fa-check
+                | Legales
               
               
 
@@ -488,4 +514,15 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.psicologia-color .cuadros-p
+  min-height: 750px !important
+.cuadros-p:hover .cuadros-p_titulo
+  place-self: center
+  margin-top: 0px !important
+@media (max-width: 1000px)
+  .psicologia-color
+    display: block !important
+  .cuadros-p:hover
+    min-height: 1100px !important
+</style>
