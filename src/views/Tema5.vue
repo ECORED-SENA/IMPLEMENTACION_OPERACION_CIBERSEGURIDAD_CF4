@@ -11,7 +11,7 @@
     .h4.mt-5 En el recurso que se muestra a continuación, podrá profundizar en los aspectos fundamentales sobre procesamiento de la información en relación con la documentación que integra estos procesos:
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/LZBqEl7Y_8k" title="Documentación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2G9T4YJDAiI" title="Documentación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 
 
