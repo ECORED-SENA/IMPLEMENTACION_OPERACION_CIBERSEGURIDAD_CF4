@@ -11,25 +11,25 @@
     
     SlyderA.mt-5.mb-5.slyder-botones-abajo
       .row
-        .col-4.px-4
+        .col-md-4.px-4.mb-3
           .row.bg-aguamarina.rounded-20.h-100.px-3
-            .col-4.pt-4           
+            .col-md-4.pt-4           
               figure
                 img(src="@/assets/template/tema-2-1.svg")
             .h3.mt-4.mb-0 Paso 1:
             .h4.mt-2 Identificación del estado actual
             p.mb-5.mt-3 Basado en la clasificación de los activos de información, identifica el estado actual de capacidad o madurez del proceso de seguridad de la información de la compañía u organización.
-        .col-4.px-4
+        .col-md-4.px-4.mb-3
           .row.bg-morado-claro.rounded-20.h-100.px-3
-            .col-4.pt-4           
+            .col-md-4.pt-4           
               figure
                 img(src="@/assets/template/tema-2-2.svg")
             .h3.mt-4.mb-0 Paso 2:
             .h4.mt-2 Definición de los objetivos
             p.mt-3.pb-5 Es clave tener en cuenta objetivos establecidos, ya que esto favorece el trazo e implementación de la estrategia de seguridad de la información, según la ISO/IEC 27001-2013.
-        .col-4.px-4    
+        .col-md-4.px-4.mb-3    
           .row.bg-aguamarina.rounded-20.h-100.px-3    
-            .col-4.pt-4           
+            .col-md-4.pt-4           
               figure
                 img(src="@/assets/template/tema-2-3.svg")
             .h3.mt-4.mb-0 Paso 3:
@@ -37,17 +37,17 @@
             p.mb-5.mt-3 Tener en cuenta el nivel del estado que se desea alcanzar, por medio de llevar a cabo la estrategia de seguridad digital en la organización, partiendo del estado o nivel actual.
         
       div.row
-        .col-4.px-4
+        .col-md-4.px-4.mb-3
           .row.bg-morado-claro.rounded-20.h-100.px-3
-            .col-4.pt-4           
+            .col-md-4.pt-4           
               figure
                 img(src="@/assets/template/tema-2-4.svg")
             .h3.mt-4.mb-0 Paso 4: 
             .h4.mt-2 Determinación del nivel de riesgo aceptable
             p.mt-3.pb-5 Definir el nivel de riesgo aceptable de la seguridad digital que se tendrá en cuenta en la estrategia, con base en la necesidad de riesgo de la organización. 
-        .col-4.px-4    
+        .col-md-4.px-4.mb-3    
           .row.bg-aguamarina.rounded-20.h-100.px-3    
-            .col-4.pt-4           
+            .col-md-4.pt-4           
               figure
                 img(src="@/assets/template/tema-2-5.svg")
             .h3.mt-4.mb-0 Paso 5: 
@@ -101,12 +101,12 @@
       .bloque-texto-g__texto.w-72.p-4
         p.mb-0 Se entiende como una entrada aquel o aquellos elementos ya existentes que serán de gran utilidad para instalar el paso. Se trata de elementos que ya tiene la organización en su haber y en su quehacer y que favorecen la instauración de cualquiera de los cinco pasos para cumplir con el diseño del plan de controles de seguridad.
     p.mt-5 En esta misma línea, están las #[strong salidas]. Cuando se habla de salidas, se está haciendo referencia a las herramientas de registro o de documentación que se tendrán luego de haber analizado, ajustado o intervenido los documentos o registros ya existentes relacionados con objetivos, planes de acción, estados de ciberseguridad de la compañía o clasificación de los activos de información, entre otros. 
-    .row.mt-5
-      .col-4.offset-2.px-4
+    .row.mt-5.m-auto(style="place-content:center;")
+      .col-md-4.px-4.mb-3
         .row.bg-aguamarina.rounded-20.h-100.py-5
           p.px-5.py-5 En términos más concretos, las salidas son aquellas herramientas documentales o de registro, que se dejan actualizadas luego de otra anterior.
 
-      .col-4.px-3
+      .col-md-4.px-3.mb-3
         .row.bg-morado-claro.rounded-20.h-100.py-5
           p.px-5.py-5 Ambos elementos, entradas y salidas, son parte de la configuración de los pasos que se siguen para el diseño de los controles de seguridad.
     .titulo-segundo.mt-5
@@ -213,10 +213,10 @@
             figure.text-center
               img(src="@/assets/curso/tema2/6.svg" style="max-width:200px;display:inline;")
 
-      .py-4.py-md-5(titulo="Algunas actividades" :icono="require('@/assets/template/tema-2-12.svg')")
+      .py-4.py-md-5(titulo="Actividades" :icono="require('@/assets/template/tema-2-12.svg')")
         .row.p-4
           .col-md-8.mb-3
-            .h3 Algunas actividades
+            .h3 Actividades
             ul.lista-ul
               li 
                 i.fas.fa-check
