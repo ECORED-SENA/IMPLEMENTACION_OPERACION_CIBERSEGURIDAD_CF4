@@ -63,5 +63,8 @@ export default {
   },
 }
 </script>
-
-<style lang="sass" scoped></style>
+<style lang="sass">
+@media(max-width: 700px)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    top: 25% !important
+</style>
