@@ -128,36 +128,31 @@
         figure
           img(src="@/assets/template/tema-2-9.png", alt="Texto que describa la imagen")
     .h4.mt-5 A continuación, la estructuración de este primer paso, con sus respectivas entradas, salidas y actividades: 	
-    .psicologia-color.d-flex.mt-5
-      .cuadros-p.cuadros-p--morado.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-10.svg")
-          .h3 Entradas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.m-auto.align-self-center.px-5
+    
+    TabsB.color-acento-contenido.mt-4
+      .py-4.py-md-5(titulo="Entradas" :icono="require('@/assets/template/tema-2-10.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Entradas
-            p La identificación del estado actual cuenta con entradas, como los inventarios de los activos de información y/o la metodología evaluativa y de categorización de tales activos de información. 
+            p La identificación del estado actual cuenta con entradas, como los inventarios de los activos de información y/o la metodología evaluativa y de categorización de tales activos de información.
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/1.svg" style="max-width:200px;display:inline;")
       
-      .cuadros-p.cuadros-p--morado-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-11.svg")
-          .h3.text-white  Salidas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+      .py-4.py-md-5(titulo="Salidas" :icono="require('@/assets/template/tema-2-11.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Salidas
             p Algunas salidas de este paso son los activos de información ya categorizados o clasificados, incluyendo elementos como criticidad y sensibilidad, también la meta implantada de seguridad digital o el estado presente de la seguridad informática en la empresa u organización.
-
-      .cuadros-p.cuadros-p--morado-mas-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-12.svg")
-          .h3.text-white  Algunas actividades
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/2.svg" style="max-width:200px;display:inline;")
+      
+      .py-4.py-md-5(titulo="Algunas actividades" :icono="require('@/assets/template/tema-2-12.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Algunas actividades
-            ul.lista-ul
+            ul.lista-ul.mt-5
               li 
                 i.fas.fa-check
                 | Fijar el estado presente de la seguridad informática o digital.
@@ -170,6 +165,10 @@
               li 
                 i.fas.fa-check
                 | Clasificar los activos informáticos teniendo como base el nivel de criticidad y, por supuesto, el nivel de sensibilidad.
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/3.svg" style="max-width:200px;display:inline;")
+
     .titulo-segundo.mt-5
       #t_2_4.h2 2.4 Paso dos: definición de los objetivos
     .row.mt-5
@@ -179,19 +178,18 @@
       .col-4.col-lg-6.offset-3.offset-lg-1
         figure
           img(src="@/assets/template/tema-2-13.png", alt="Texto que describa la imagen")
-    .h4.mt-5 Profundice en las entradas, salidas y actividades de este segundo paso en el recurso que, a continuación, se presenta: 	
-    .psicologia-color.d-flex.mt-5
-      .cuadros-p.cuadros-p--morado.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-10.svg")
-          .h3 Entradas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.m-auto.align-self-center.px-5
+    .h4.mt-5 Profundice en las entradas, salidas y actividades de este segundo paso en el recurso que, a continuación, se presenta:
+
+    TabsB.color-acento-contenido.mt-4
+      .py-4.py-md-5(titulo="Entradas" :icono="require('@/assets/template/tema-2-10.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Entradas
             p Algunas entradas de este paso son: el plan estratégico de la compañía, el inventario de los activos de información ya categorizados, las metas establecidas con respecto a la seguridad digital,  la determinación de negocio y/o medios tecnológicos que afectan el logro de objetivos,  el compendio de normas y estatutos o leyes, decretos, etc., que regulan la clasificación de información.
 
-            button.mt-5(style="background-color:white;color:initial !important;font-weight:bold;" @click="modal1 = true") Más entradas de este paso
+            a.boton.color-acento-botones.text-white.mt-5.indicador__container(@click="modal1 = true")
+              span Más entradas de este paso
+              .indicador--click(v-if="mostrarIndicador")
 
             ModalA(:abrir-modal.sync="modal1")
               .row.align-items-center
@@ -199,24 +197,25 @@
                 p.mt-4 Otras entradas importantes de este paso son:
                 p.mt-3 Las inspecciones o controles, entre los que es posible enunciar: de accesos, sistemas de descubrimiento o detección de intrusos, etc.
                 p.mt-3 Las contramedidas: se trata de aquellos mecanismos de control o de inspección que son implementados para dar respuestas específicas a las distintas amenazas; podrían ser de orden preventivo, de detección o de carácter correctivo.
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/4.svg" style="max-width:200px;display:inline;")
+            figure.text-center
+              img(src="@/assets/curso/tema2/5.svg" style="max-width:200px;display:inline;")
 
-      .cuadros-p.cuadros-p--morado-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-11.svg")
-          .h3.text-white  Salidas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+      .py-4.py-md-5(titulo="Salidas" :icono="require('@/assets/template/tema-2-11.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Salidas
-            p En este caso, las salidas más destacadas son los objetivos establecidos de la estrategia misma.
+            p.mt-5 En este caso, las salidas más destacadas son los objetivos establecidos de la estrategia misma.
 
-      .cuadros-p.cuadros-p--morado-mas-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-12.svg")
-          .h3.text-white  Algunas actividades
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/6.svg" style="max-width:200px;display:inline;")
+
+      .py-4.py-md-5(titulo="Algunas actividades" :icono="require('@/assets/template/tema-2-12.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Algunas actividades
             ul.lista-ul
               li 
@@ -228,20 +227,23 @@
               li 
                 i.fas.fa-check
                 | Determinar los objetivos de entrega de valor: su función es permitir la optimización de las inversiones en cuanto a la seguridad informática, apoyando los objetivos de la organización.
-            .h4.mt-4 Otras actividades de suma importancia
-            p.mt-3 Determinar los objetivos de gestión de recursos: su función es permitir la utilización del conocimiento y la infraestructura de seguridad digital con eficiencia y efectividad.
-            ul.lista-ul.mt-3
-              li 
-                i.fas.fa-check
-                | Determinar los objetivos de medición del desempeño: la finalidad de cumplir estos objetivos debe posibilitar monitorear y reportar todos los procesos de la seguridad digital.
 
-            button.mt-5(style="background-color:white;color:initial !important;font-weight:bold;" @click="modal2 = true") Otras actividades de suma importancia
+            a.boton.color-acento-botones.text-white.mt-5.indicador__container(@click="modal2 = true")
+              span Otras actividades de suma importancia
+              .indicador--click(v-if="mostrarIndicador")
 
             ModalA(:abrir-modal.sync="modal2")
               .row.align-items-center
                 h4(style="color:initial !important;") Otras actividades de suma importancia
                 p.mt-4(style="color:initial !important;") Determinar los objetivos de gestión de recursos: su función es permitir la utilización del conocimiento y la infraestructura de seguridad digital con eficiencia y efectividad.
                 p.mt-3(style="color:initial !important;") Determinar los objetivos de medición del desempeño: la finalidad de cumplir estos objetivos debe posibilitar monitorear y reportar todos los procesos de la seguridad digital.
+
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/7.svg" style="max-width:200px;display:inline;")
+            figure.text-center
+              img(src="@/assets/curso/tema2/8.svg" style="max-width:200px;display:inline;")
+    
     
     .titulo-segundo.mt-5
       #t_2_5.h2 2.5  Paso tres: determinación del estado deseado
@@ -253,33 +255,23 @@
         figure
           img(src="@/assets/template/tema-2-14.png", alt="Texto que describa la imagen")
     .h4.mt-5 Entérese, a continuación, de las entradas, salidas y actividades que estructuran este tercer paso en el diseño de controles de seguridad:
-    .psicologia-color.d-flex.mt-5
-      .cuadros-p.cuadros-p--morado.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-10.svg")
-          .h3 Entradas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.m-auto.align-self-center.px-5
+    
+    TabsB.color-acento-contenido.mt-4
+      .py-4.py-md-5(titulo="Entradas" :icono="require('@/assets/template/tema-2-10.svg')")
+        .row.p-4
+          .col-md-12
             .h3 Entradas
             p Algunas entradas para la determinación del estado deseado son: los objetivos de la estrategia de seguridad digital ya establecidos, el estado actual del proceso de seguridad digital y los estándares y/o mejores prácticas, como, por ejemplo, #[strong la ISO 27001:2013 y la ISO 27002:2013].
-      .cuadros-p.cuadros-p--morado-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-11.svg")
-          .h3.text-white  Salidas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+
+      .py-4.py-md-5(titulo="Salidas" :icono="require('@/assets/template/tema-2-11.svg')")
+        .row.p-4
+          .col-md-12
             .h3 Salidas
             p En la determinación del estado deseado, una salida necesaria es, justamente, la mirada al estado deseado. Ha de ser una herramienta organizada y en correspondencia lógica con el actual.
 
-      .cuadros-p.cuadros-p--morado-mas-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-12.svg")
-          .h3.text-white  Algunas actividades
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+      .py-4.py-md-5(titulo="Algunas actividades" :icono="require('@/assets/template/tema-2-12.svg')")
+        .row.p-4
+          .col-md-12
             .h3 Algunas actividades
             ul.lista-ul
               li 
@@ -291,6 +283,8 @@
               li 
                 i.fas.fa-check
                 | Definir , de la mano de la alta gerencia de la organización, el nivel de madurez deseado, determinando el proceso para que cumpla con sus objetivos y satisfaga las necesidades de la organización.
+
+
     .row.mt-5
       .col-10.offset-1
         .tarjeta.color-primario.p-3.mb-5
@@ -334,14 +328,11 @@
       .col-4.col-lg-6.offset-3.offset-lg-1
         figure
           img(src="@/assets/template/tema-2-16.png", alt="Texto que describa la imagen")
-    .psicologia-color.d-flex.mt-5
-      .cuadros-p.cuadros-p--morado.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-10.svg")
-          .h3 Entradas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.m-auto.align-self-center.px-5
+    
+    TabsB.color-acento-contenido.mt-4
+      .py-4.py-md-5(titulo="Entradas" :icono="require('@/assets/template/tema-2-10.svg')")
+        .row.p-4
+          .col-md-12
             .h3 Entradas
             ul.lista-ul
               li 
@@ -359,14 +350,10 @@
               li 
                 i.fas.fa-check
                 | Metodología de gestión de riesgos.
-             
-      .cuadros-p.cuadros-p--morado-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-11.svg")
-          .h3.text-white  Salidas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+
+      .py-4.py-md-5(titulo="Salidas" :icono="require('@/assets/template/tema-2-11.svg')")
+        .row.p-4
+          .col-md-12
             .h3 Salidas
             ul.lista-ul
               li 
@@ -378,13 +365,10 @@
               li 
                 i.fas.fa-check
                 | Estrategia actualizada y/o ajustada de la seguridad de la Información.
-      .cuadros-p.cuadros-p--morado-mas-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-12.svg")
-          .h3.text-white  Actividades
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+
+      .py-4.py-md-5(titulo="Actividades" :icono="require('@/assets/template/tema-2-12.svg')")
+        .row.p-4
+          .col-md-12
             .h3 Actividades
             ul.lista-ul
               li 
@@ -399,6 +383,7 @@
               li 
                 i.fas.fa-check
                 | Dirigir la estrategia de gestión de los riesgos críticos que hayan sido hallados.
+
     .titulo-segundo.mt-5
       #t_2_7.h2 2.7. Paso cinco: definición y ejecución del plan de acción
     .row.mt-5
@@ -409,24 +394,21 @@
         figure
           img(src="@/assets/template/tema-2-17.png", alt="Texto que describa la imagen")
     .h4.mt-5 Se presentan ahora las entradas, salidas y actividades que estructuran el paso de definición y ejecución del plan de acción:
-    .psicologia-color.d-flex.mt-5
-      .cuadros-p.cuadros-p--morado.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-10.svg")
-          .h3 Entradas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.m-auto.align-self-center.px-5
+
+    TabsB.color-acento-contenido.mt-4
+      .py-4.py-md-5(titulo="Entradas" :icono="require('@/assets/template/tema-2-10.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Entradas
             p Los objetivos establecidos en la estrategia, la situación o estado actual del proceso de seguridad digital, la situación o estado deseados del proceso de seguridad digital y, desde luego, los activos de Información. 
-            p.mt-3 Los objetivos establecidos en la estrategia, la situación o estado actual del proceso de seguridad digital, la situación o estado deseados del proceso de seguridad digital y, desde luego, los activos de Información. 
-      .cuadros-p.cuadros-p--morado-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-11.svg")
-          .h3.text-white  Salidas
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+            p.mt-3 Los objetivos establecidos en la estrategia, la situación o estado actual del proceso de seguridad digital, la situación o estado deseados del proceso de seguridad digital y, desde luego, los activos de Información.
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/9.svg" style="max-width:200px;display:inline;")
+
+      .py-4.py-md-5(titulo="Salidas" :icono="require('@/assets/template/tema-2-11.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Salidas
             ul.lista-ul
               li 
@@ -438,14 +420,13 @@
               li 
                 i.fas.fa-check
                 | Métricas y mecanismos de monitoreo de la estrategia.
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/10.svg" style="max-width:200px;display:inline;")
 
-      .cuadros-p.cuadros-p--morado-mas-oscuro.d-flex
-        .cuadros-p_titulo.mt-5
-          figure
-            img(src="@/assets/template/tema-2-12.svg")
-          .h3.text-white  Actividades
-        .cuadros-p__textos__container.row
-          .cuadros-p_textos.text-white.m-auto.align-self-center.px-5
+      .py-4.py-md-5(titulo="Actividades" :icono="require('@/assets/template/tema-2-12.svg')")
+        .row.p-4
+          .col-md-8.mb-3
             .h3 Actividades
             ul.lista-ul
               li.mb-1 
@@ -490,6 +471,11 @@
               li.mb-1 
                 i.fas.fa-check
                 | Legales
+          .col-md-4
+            figure.text-center
+              img(src="@/assets/curso/tema2/11.svg" style="max-width:200px;display:inline;")
+            figure.text-center
+              img(src="@/assets/curso/tema2/12.svg" style="max-width:200px;display:inline;")
               
               
 
@@ -525,4 +511,6 @@ export default {
     display: block !important
   .cuadros-p:hover
     min-height: 1100px !important
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  border-top-color: #EA3065 !important
 </style>
