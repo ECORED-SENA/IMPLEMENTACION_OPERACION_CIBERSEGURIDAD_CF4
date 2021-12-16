@@ -282,7 +282,7 @@
                 | Reconocer el nivel de madurez deseado.
               li 
                 i.fas.fa-check
-                | Definir , de la mano de la alta gerencia de la organización, el nivel de madurez deseado, determinando el proceso para que cumpla con sus objetivos y satisfaga las necesidades de la organización.
+                | Definir, de la mano de la alta gerencia de la organización, el nivel de madurez deseado, determinando el proceso para que cumpla con sus objetivos y satisfaga las necesidades de la organización.
 
 
     .row.mt-5
@@ -294,21 +294,15 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.py-3
-                  h3.mb-1 Amplia tus conocimientos
+                  h3.mb-1 Amplía tus conocimientos
                   p.text-small Para ampliar su saber sobre otros estándares que contribuyen en la determinación del estado deseado, se recomienda revisar el siguiente material: CMMI, COBIT, ITIL. ISO/IEC 20000 y COSO, el cual puede encontrar en   
                 //.col-sm-auto
                   a.boton.bg-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span.texto-acento-botones Descargar
                     i.fas.fa-file-download.texto-acento-botones
     .row
-      .col-7.offset-1
-        a.anexo.mb-4.mb-lg-0(href="https://www.globalbit.co/2019/07/22/modelo-cmmi-calidad-y-buenas-practicas-en-el-desarrollo-de-software/" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link-rojo.svg")
-          .anexo__texto
-            p https://www.globalbit.co/2019/07/22/modelo-cmmi-calidad-y-buenas-practicas-en-el-desarrollo-de-software/
       .col-7.offset-1.mt-3
-        a.anexo.mb-4.mb-lg-0(href="https://www.emagister.com/blog/que-es-itil/ " target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.emagister.com/blog/que-es-itil/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link-rojo.svg")
           .anexo__texto

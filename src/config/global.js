@@ -149,23 +149,23 @@ export default {
   referencias: [
     {
       referencia:
-        'Consejo Nacional de Política Económica y Social. (2011). Lineamientos de políticas para Ciberseguridad y Ciberdefensa (CONPES 3701).',
+        'Consejo Nacional de Política Económica y Social. (2011). Lineamientos de políticas para Ciberseguridad y Ciberdefensa (CONPES 3701). ',
       link:
         'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3701.pdf',
     },
     {
-      referencia: 'EcuRed. (s. f.). Documentación.',
+      referencia: 'EcuRed. (s. f.). Documentación. ',
       link: 'https://www.ecured.cu/Documentaci%C3%B3n ',
     },
     {
       referencia:
-        'Ministerio de Hacienda y Administraciones Públicas. (2013). MAGERIT – versión 3.0. Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información.',
+        'Ministerio de Hacienda y Administraciones Públicas. (2013). MAGERIT – versión 3.0. Metodología de Análisis y Gestión de Riesgos de los Sistemas de Información. ',
       link:
         'https://www.ccn-cert.cni.es/documentos-publicos/1789-magerit-libro-i-metodo/file.html',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2011). Modelo de Seguridad y Privacidad de la Información.',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2011). Modelo de Seguridad y Privacidad de la Información. ',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_Modelo_de_Seguridad_Privacidad.pdf',
     },

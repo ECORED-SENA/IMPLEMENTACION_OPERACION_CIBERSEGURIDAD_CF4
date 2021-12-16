@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 6
       h1 Generalidades de los activos de información
-    p.mt-5 Los activos de información relacionados con la seguridad de la información hacen referencia a cualquier información o dispositivo que tenga que ver con el tratamiento de ésta y que sea de valor para la organización.
+    p.mt-5 Los activos de información relacionados con la seguridad de la información hacen referencia a cualquier información o dispositivo que tenga que ver con el tratamiento de esta y que sea de valor para la organización.
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.w-45(
         :style="{'background-image': `url(${require('@/assets/template/tema-6-1.png')})`}"
